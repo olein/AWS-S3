@@ -39,8 +39,8 @@ public class AmazonS3Client {
 
     private AWSCredentialsProvider getAwsCredentialPovider() {
         AWSCredentials awsCredentials =
-                new BasicAWSCredentials("AKIAYIYGR77WQHTX47XK",
-                        "Kzcldyj29Agwlj/RoS8zdDgGkAwuLE2SKr2gNpo1");
+                new BasicAWSCredentials("access-key",
+                        "secret-key");
         return new AWSStaticCredentialsProvider(awsCredentials);
     }
 
